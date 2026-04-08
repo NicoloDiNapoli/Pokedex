@@ -1,10 +1,9 @@
 package mdp2026.pokedex.Presentation;
 
 import mdp2026.pokedex.Application.PokedexManager;
-import mdp2026.pokedex.core.Pokemon;
+import mdp2026.pokedex.Core.Pokemon;
 
 import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 
 public class ApplicationCMD {

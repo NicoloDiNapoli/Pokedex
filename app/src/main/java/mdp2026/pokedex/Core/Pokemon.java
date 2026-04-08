@@ -1,4 +1,4 @@
-package mdp2026.pokedex.core;
+package mdp2026.pokedex.Core;
 
 import javax.annotation.Nullable;
 

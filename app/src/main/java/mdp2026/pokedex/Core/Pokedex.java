@@ -1,12 +1,14 @@
-package mdp2026.pokedex.core;
+package mdp2026.pokedex.Core;
 
 import java.util.ArrayList;
 
 public class Pokedex {
     private ArrayList<Pokemon> pokemons;
+    private int pokemonScoperti;
 
     public Pokedex() {
         this.pokemons = new ArrayList<>();
+        this.pokemonScoperti = 0;
     }
 
     public ArrayList<Pokemon> getFindPokemons() {
@@ -21,6 +23,7 @@ public class Pokedex {
     public void addPokemon(Pokemon pokemon) {
         pokemons.add(pokemon.getId(), pokemon);
         pokemons.get(pokemon.getId()).setFind(true);
+        pokemonScoperti++;
     }
 
     public String getPokemonNameById(int id) {

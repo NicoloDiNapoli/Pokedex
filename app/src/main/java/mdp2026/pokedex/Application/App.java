@@ -1,4 +1,4 @@
-package mdp2026.pokedex;
+package mdp2026.pokedex.Application;
 
 import mdp2026.pokedex.Presentation.ApplicationCMD;
 

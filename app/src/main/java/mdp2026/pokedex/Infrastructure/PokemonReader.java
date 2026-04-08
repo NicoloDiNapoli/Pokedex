@@ -2,7 +2,7 @@ package mdp2026.pokedex.Infrastructure;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
-import mdp2026.pokedex.core.Pokemon;
+import mdp2026.pokedex.Core.Pokemon;
 import mdp2026.pokedex.utility.ResourceReader;
 
 import java.lang.reflect.Type;

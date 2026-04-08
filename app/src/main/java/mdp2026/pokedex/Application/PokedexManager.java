@@ -1,8 +1,8 @@
 package mdp2026.pokedex.Application;
 
 import mdp2026.pokedex.Infrastructure.PokemonReader;
-import mdp2026.pokedex.core.Pokedex;
-import mdp2026.pokedex.core.Pokemon;
+import mdp2026.pokedex.Core.Pokedex;
+import mdp2026.pokedex.Core.Pokemon;
 
 import java.util.ArrayList;
 
